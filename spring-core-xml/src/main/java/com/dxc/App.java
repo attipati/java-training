@@ -12,9 +12,12 @@ public class App {
     public static void main(String[] args) {
 
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
-        // ctx.refresh();
-        AppDao appDao = ctx.getBean("appDao", AppDao.class);
-        System.out.println(appDao.getDataSource());
+        AppDataSource appDataSource=ctx.getBean("dataSource",AppDataSource.class);
+         //ctx.refresh();
+        //AppDao appDao = ctx.getBean("appDao", AppDao.class);
+        System.out.println(appDataSource);
         ctx.registerShutdownHook();
+        /*System.out.println("hi");
+        AppDataSource appDataSource=new AppDataSource();*/
     }
 }
