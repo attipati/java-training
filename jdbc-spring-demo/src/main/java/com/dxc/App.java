@@ -16,7 +16,7 @@ public class App {
 
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("beans.xml");
 
-        ctx.refresh();
+        //ctx.refresh();
 
         Book chemistry = new Book("chemistry studies", "George Orwell", "978-0-39");
         Book physics = new Book("physics studies", "Frank Herbert", "978-0-553");
@@ -46,6 +46,6 @@ public class App {
             e.printStackTrace();
         }
 
-        ctx.registerShutdownHook();
+        //ctx.registerShutdownHook();
     }
 }
