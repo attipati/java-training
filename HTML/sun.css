@@ -1,0 +1,103 @@
+body{
+    font-family: 'Spartan', sans-serif;
+    margin: auto;
+ 
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+h1{
+    font-size: 100px;
+    font-weight: 800;
+    color: hsl(300, 43%, 22%);
+    align-self: center;
+    text-align: center;
+
+}
+
+h4{
+    font-size: 50px;
+    align-self: center;
+    text-align: center;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+
+}
+
+.box{
+    flex-direction: column;
+    background-color: hsl(300, 43%, 22%);
+    flex-basis: 0.3;
+    border: 0.5px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 400px;
+    min-width: 400px;
+    
+
+
+
+}
+
+.boxName{
+    font-size: medium;
+    color: white;
+    background-color: hsl(300, 43%, 22%);
+    border: 2px solid black;
+    height: 25px;
+    border-bottom: 0.5px solid black;padding: 10px;
+
+
+}
+
+.boxBody{
+    font-size: large;
+    color: white;
+    background-color: hsl(300, 43%, 22%);
+    border: 2px solid black;
+    height: 180px;
+    padding: 10px;
+
+
+}
+
+.boxRating{
+    background-color: white;
+    font-size: large;
+    color: hsl(300, 43%, 22%);
+    border: 2px solid black;
+    height: 50px;
+    padding: 10px;
+    border: 10px solid hsl(300, 43%, 22%);
+   
+
+
+}
+
+.spacer{
+    
+    height: 1000px;
+}
+
+.ratingmsd{
+   
+    background-color: white;
+    font-size: large;
+    color: hsl(300, 43%, 22%);
+   
+}
+
+
+.checked {
+    color: orange;
+}
